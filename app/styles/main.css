@@ -12,6 +12,9 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
+.card-test{
+  font-size: 50px;
+}
 body {
   margin: 0; }
 
@@ -26,6 +29,7 @@ section {
 h1 {
   font-family: arial;
   font-size: 2em;
+  color:#0000FF;
   margin: auto;}
 
 figcaption,
