@@ -6793,5 +6793,10 @@ div[role="main"] {
 }
 div[role="main"], nav, aside {
  height: 600px;
-}
+ }
+ .row{
+   margin: 0;
+
+ }
+ 
 >>>>>>> upstream/master
