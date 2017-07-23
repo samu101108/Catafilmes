@@ -1,0 +1,43 @@
+div.container-fluid{
+  background-color: rgb(31, 31, 31);
+}
+/*header, footer, nav, main, aside{border: 1px solid red;}*/
+
+header{
+  color: white;
+  margin: 20px 0 20px 0;
+  padding: 20px 0 20px 0;
+  /*margin-top: 0;  margin-bottom: 0;*/
+}
+header h1{
+  font-size: 4em;
+  padding: 5px;
+  margin: 0;
+}
+
+nav{
+  background-color: rgb(213, 213, 213);
+}
+
+main{
+  /*margin-top: -20px;*/
+}
+main h2{
+  color: white;
+  /*margin-top: -20px;*/
+}
+aside{
+  background-color: rgb(213, 213, 213);
+}
+
+footer{
+  color: #ddd;
+  background-color: #000;
+  margin: 20px 0 0 0;
+  padding: 20px 0 20px 0;
+  /*margin-top: 0;  */
+}
+.resultado_busca{
+  color: rgb(231, 222, 145);
+  text-align: left;
+}

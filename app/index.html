@@ -1,115 +1,132 @@
 <!doctype html>
 <html class="no-js" lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Catafilmes</title>
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Catafilmes</title>
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
 
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
 
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-  </head>
-  <body>
+  <!-- build:css styles/main.css -->
+  <!-- <link rel="stylesheet" href="styles/main.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/my.css">
+
+  <!-- endbuild -->
+
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+
+<body>
 
   <div class="container-fluid">
     <header class="row">
-        <div>
-
-        <div class="text-center col-md-12 col-xs-12">
-
+      <div class="col-xs-12 text-center">
         <h1>Cata Filmes</h1>
-    </div>
-  </div>
-  </header>
-      <main>
-        <div class="row">
-          <nav class="col-md-2 col-xs-2">
-            <div class="text-left">
-              <ul class="list-unstyled">
-                <li>A múmia</li>
-                <li>Homem-aranha</li>
-                <li>Carros</li>
-              </ul>
-            </div>
-          </nav>
-          <div role="main" class="col-md-8 col-xs-8">
-            <div class="row">
-                <div>
+      </div>
+    </header>
 
-              <h1>Cate filmes</h1>
-              <input type="text"><button>Buscar</button>
+    <div class="row">
 
-            </div>
+      <nav class="col-md-2">
+        <h3>Títulos</h3>
+        <ul class="list-unstyled">
+          <li>A múmia</li>
+          <li>Homem-aranha</li>
+          <li>Carros</li>
+        </ul>
+      </nav>
+
+      <main class="col-md-8 text-center">
+        <div>
+          <h2>Cate filmes</h2>
+          <input type="text">
+          <button>Buscar</button>
+          <div class="resultado_busca">
+            <!-- Aqui será exibido o resultado da busca -->
           </div>
-          </div>
-          <aside role="complementary" class="col-md-2 col-xs-2">
-            <div class="text-left">
-              <ul class="list-unstyled">
-                <li>Suspense</li>
-                <li>Ação</li>
-                <li>Ficção científica</li>
-              </ul>
-            </div>
-
-          </aside>
+          <br>
         </div>
       </main>
 
-      <footer class="row">
-        <div>
-          Cata filmes 2017 |
-          <a href="#">contato</a>
-        </div>
-      </footer>
+      <aside class="col-md-2">
+        <h3>Categorias</h3>
+        <ul class="list-unstyled">
+          <li>Suspense</li>
+          <li>Ação</li>
+          <li>Ficção científica</li>
+        </ul>
+      </aside>
+
     </div>
 
+    <footer class="row">
+      <div class="col-xs-12 text-center">
+        <p>Este site usa a API de <a href="https://www.themoviedb.org/">Themoviedb.</a></p>
+        Cata filmes 2017 |
+        <a href="#">contato</a>
+      </div>
+    </footer>
 
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+  </div>
 
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/tether/dist/js/tether.js"></script>
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
 
-    <!-- build:js scripts/plugins.js -->
-    <script src="/bower_components/bootstrap/js/dist/util.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/alert.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/button.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/carousel.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/collapse.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/dropdown.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/modal.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/scrollspy.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/tab.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/tooltip.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/popover.js"></script>
-    <!-- endbuild -->
+  <script>
+    (function(b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l;
+      b[l] || (b[l] =
+        function() {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+      b[l].l = +new Date;
+      e = o.createElement(i);
+      r = o.getElementsByTagName(i)[0];
+      e.src = 'https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+  </script>
 
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
-  </body>
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/tether/dist/js/tether.js"></script>
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js scripts/plugins.js -->
+  <!-- <script src="/bower_components/bootstrap/js/dist/util.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/alert.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/button.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/carousel.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/collapse.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/dropdown.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/modal.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/scrollspy.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/tab.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/tooltip.js"></script>
+  <script src="/bower_components/bootstrap/js/dist/popover.js"></script> -->
+  <!-- endbuild -->
+
+  <!-- build:js scripts/main.js -->
+  <!-- <script src="scripts/main.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- <script src="scripts/api.js"></script> -->
+
+  <!-- endbuild -->
+</body>
+
 </html>
