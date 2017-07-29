@@ -24,7 +24,9 @@ Para editar o projeto em seu computador, é necessário que o Nodejs esteja inst
 Após instaladar o node, execute os comandos abaixo:
 
 $npm install
+
 $bower install
+
 $gulp serve
 
 Agora é só editar.
